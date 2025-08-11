@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetching Data Collection</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Fetching Data Collection!</h1>
+        <p>Welcome to our Library! View the collection below and add a book if you wish!</p>
+        <div class="collection">
+            <ul id="book-list">
+
+            </ul>
+        </div>
+        <div class="add-book">
+            <h2>Add a Book</h2>
+            <form id="add-book-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="author" placeholder="Author" required>
+                <input type="number" id="copies" placeholder="Copies" required>
+                <button type="submit">Add Book</button>
+            </form>
+        </div>
+        <div class="update-book">
+            <h2>Update a Book</h2>
+            <form id="update-book-form">
+                <input type="text" id="update-title" placeholder="New Title">
+                <input type="text" id="update-author" placeholder="New Author">
+                <input type="number" id="update-copies" placeholder="New Copies">
+                <button type="submit">Update Book</button>
+            </form>
+        </div>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
